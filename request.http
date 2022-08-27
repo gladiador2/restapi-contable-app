@@ -1,0 +1,12 @@
+###
+GET http://127.0.0.1:4000/api/languages/ HTTP/1.1
+
+
+###
+GET http://127.0.0.1:4000/api/Usuarios/FA HTTP/1.1
+Content-Type: application/json
+
+{
+    "usuario": "FA",
+    "contrasena": "admin"
+}
